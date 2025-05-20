@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Tebak Angka</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      margin-top: 80px;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tebak Angka</h1>
+  <p>Komputer telah memilih angka dari 1 sampai 10. Coba tebak!</p>
+  <input type="number" id="tebakan" placeholder="Masukkan angka (1-10)">
+  <button onclick="tebakAngka()">Tebak</button>
+
+  <h2 id="hasil"></h2>
+
+  <script src="project3.js"></script>
+</body>
+</html>

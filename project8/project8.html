@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kalkulator Sederhana</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    input, select, button {
+      padding: 10px;
+      font-size: 16px;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Kalkulator Sederhana</h1>
+  <input type="number" id="angka1" placeholder="Angka pertama">
+  <select id="operator">
+    <option value="+">+</option>
+    <option value="-">−</option>
+    <option value="*">×</option>
+    <option value="/">÷</option>
+  </select>
+  <input type="number" id="angka2" placeholder="Angka kedua">
+  <button onclick="hitung()">Hitung</button>
+
+  <h2 id="hasil"></h2>
+
+  <script src="project8.js"></script>
+</body>
+</html>

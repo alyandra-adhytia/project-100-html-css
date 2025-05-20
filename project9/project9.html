@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kuis Sederhana</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 50px;
+    }
+    .pertanyaan {
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Kuis Pengetahuan Umum</h1>
+
+  <div class="pertanyaan">
+    <p>1. Ibukota Indonesia adalah?</p>
+    <label><input type="radio" name="q1" value="a"> Bandung</label><br>
+    <label><input type="radio" name="q1" value="b"> Surabaya</label><br>
+    <label><input type="radio" name="q1" value="c"> Jakarta</label><br>
+  </div>
+
+  <div class="pertanyaan">
+    <p>2. 1 + 1 = ?</p>
+    <label><input type="radio" name="q2" value="a"> 1</label><br>
+    <label><input type="radio" name="q2" value="b"> 2</label><br>
+    <label><input type="radio" name="q2" value="c"> 3</label><br>
+  </div>
+
+  <button onclick="cekJawaban()">Kirim Jawaban</button>
+
+  <h2 id="hasil"></h2>
+
+  <script src="project9.js"></script>
+</body>
+</html>

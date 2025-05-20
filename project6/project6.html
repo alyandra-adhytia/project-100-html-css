@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Konverter Suhu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Konverter Suhu</h1>
+
+  <label for="celsius">Celsius:</label>
+  <input type="number" id="celsius" placeholder="Suhu dalam Celsius">
+  <button onclick="konversiKeFahrenheit()">Ke Fahrenheit</button>
+
+  <p>Atau</p>
+
+  <label for="fahrenheit">Fahrenheit:</label>
+  <input type="number" id="fahrenheit" placeholder="Suhu dalam Fahrenheit">
+  <button onclick="konversiKeCelsius()">Ke Celsius</button>
+
+  <h2 id="hasil"></h2>
+
+  <script src="project6.js"></script>
+</body>
+</html>

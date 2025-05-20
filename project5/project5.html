@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+      margin: 5px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      background: #f0f0f0;
+      margin: 5px auto;
+      padding: 10px;
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 8px;
+    }
+    .hapus-btn {
+      background-color: rgb(0, 187, 255);
+      color: rgb(103, 133, 42);
+      border: none;
+      padding: 5px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>To-Do List</h1>
+  <input type="text" id="tugasInput" placeholder="Apa yang harus kamu lakukan?">
+  <button onclick="tambahTugas()">Tambah</button>
+
+  <ul id="daftarTugas"></ul>
+
+  <script src="project5.js"></script>
+</body>
+</html>
+
