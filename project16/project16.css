@@ -1,0 +1,28 @@
+body {
+  background-color: #fff8dc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.note-card {
+  background-color: #fffacd;
+  border: 2px dashed #f4c430;
+  padding: 25px 30px;
+  border-radius: 8px;
+  max-width: 300px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.note-card h3 {
+  margin-top: 0;
+  color: #b8860b;
+}
+
+.note-card p {
+  color: #555;
+  line-height: 1.5;
+}

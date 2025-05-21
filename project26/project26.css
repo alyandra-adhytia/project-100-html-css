@@ -1,0 +1,94 @@
+/* Reset margin dan padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Gaya umum untuk halaman */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Kontainer utama */
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+/* Kolom utama */
+.main-content {
+  flex: 0 0 65%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.main-content p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #FF5722;
+  color: white;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #E64A19;
+}
+
+/* Sidebar */
+.sidebar {
+  flex: 0 0 30%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.sidebar p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+
+

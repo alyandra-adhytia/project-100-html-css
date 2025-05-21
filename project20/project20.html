@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Tombol Interaktif</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Selamat datang!</h1>
+    <p>Tekan tombol di bawah untuk melihat pesan.</p>
+    <button id="myButton">Klik Saya</button>
+    <p id="message" style="display: none;">Pesan Tersembunyi:Selamat kamu tidak mendapatkan apa apa!</p>
+  </div>
+
+  <script>
+    document.getElementById('myButton').onclick = function() {
+      document.getElementById('message').style.display = 'block';
+    }
+  </script>
+<script src="project20.css"></script>
+
+</body>
+</html>
