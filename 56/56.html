@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Random Trivia Quiz</title>
+  <style>
+    body { font-family: sans-serif; max-width: 500px; margin: 40px auto; text-align: center; }
+    #question { font-size: 1.2em; margin-bottom: 20px; }
+    .btn { display: block; margin: 8px auto; padding: 12px 20px; width: 100%; max-width: 300px; cursor: pointer; }
+    .correct { background: #c8e6c9; }
+    .wrong { background: #ffcdd2; }
+    #next-btn { margin-top: 20px; }
+    #score { font-weight: bold; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Random Trivia Quiz</h1>
+  <div id="question">Memuat pertanyaan...</div>
+  <div id="answer-buttons"></div>
+  <button id="next-btn" class="btn" style="display:none;">Next</button>
+  <div id="score"></div>
+  <script src="app.js"></script>
+</body>
+</html>

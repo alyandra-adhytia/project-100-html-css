@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Custom Music Player</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #f3f3f3;
+      margin: 0;
+      height: 100vh;
+      justify-content: center;
+    }
+    .player {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 300px;
+    }
+    .cover { width: 100%; border-radius: 8px; }
+    .title, .artist { margin: 8px 0; }
+    .controls { display: flex; justify-content: space-around; margin-top: 15px; }
+    .controls button { padding: 10px; font-size: 1em; cursor: pointer; }
+    input[type="range"] { width: 100%; margin-top: 15px; }
+  </style>
+</head>
+<body>
+  <div class="player">
+    <img src="" alt="Cover" class="cover" id="cover">
+    <div class="title" id="title">Title</div>
+    <div class="artist" id="artist">Artist</div>
+
+    <div class="controls">
+      <button id="prev">⏮️</button>
+      <button id="play">▶️</button

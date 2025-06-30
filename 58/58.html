@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Restaurant Menu Filter</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; max-width: 600px; margin: auto; }
+    .filter-btns { margin-bottom: 20px; }
+    .filter-btns button { margin-right: 5px; padding: 8px 12px; cursor: pointer; }
+    .menu-item { display: flex; justify-content: space-between; padding: 10px; border-bottom: 1px solid #ddd; }
+  </style>
+</head>
+<body>
+
+  <h1>Menu Restoran</h1>
+
+  <div class="filter-btns">
+    <button data-filter="all">Semua</button>
+    <button data-filter="breakfast">Sarapan</button>
+    <button data-filter="lunch">Makan Siang</button>
+    <button data-filter="dinner">Makan Malam</button>
+  </div>
+
+  <div id="menu"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

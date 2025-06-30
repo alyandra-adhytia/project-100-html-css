@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guess the Number</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 400px;
+      margin: 50px auto;
+      text-align: center;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 1em;
+      margin-top: 10px;
+    }
+    #message {
+      font-size: 1.2em;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎲 Tebak Angka</h1>
+  <p>Saya berpikir angka antara <strong>1</strong> dan <strong>100</strong>.</p>
+  <input type="number" id="guessInput" placeholder="Tebak di sini" />
+  <button id="submitBtn">Tebak!</button>
+  <button id="resetBtn">Reset</button>
+  <div id="message"></div>
+
+  <script src="52.js"></script>
+</body>
+</html>

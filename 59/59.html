@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #e0f7fa;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .app {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      width: 300px;
+    }
+    input, button { padding: 10px; font-size: 1em; width: 100%; margin: 5px 0; }
+    #result { margin-top: 20px; font-size: 1.1em; }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <h1>Weather App</h1>
+    <input type="text" id="cityInput" placeholder="Masukkan nama kota..." />
+    <button id="getBtn">Dapatkan Cuaca</button>
+    <div id="result">-</div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
